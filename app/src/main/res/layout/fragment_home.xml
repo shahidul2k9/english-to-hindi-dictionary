@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <ImageButton android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:id="@+id/search"
+                     android:background="@null"
+                     android:src="@mipmap/search"
+                     android:layout_weight="0.2"/>
+        <AutoCompleteTextView
+                              android:id="@+id/auto_complete_word"
+                              android:layout_width="0dp"
+                              android:layout_height="wrap_content"
+                              android:completionThreshold="1"
+                              android:layout_weight="1"/>
+        <ImageButton android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:visibility="gone"
+                     android:background="@null"
+                     android:src="@mipmap/clear"
+                     android:id="@+id/clear"
+                     android:layout_weight="0.2"/>
+        <ImageButton android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:id="@+id/input_voice"
+                     android:src="@mipmap/voice_input"
+                     android:background="@null"
+                     android:layout_weight="0.2"/>
+
+        <ImageButton android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:id="@+id/speaker"
+                     android:background="@null"
+                     android:src="@mipmap/speaker"
+                     android:layout_weight="0.2"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:paddingLeft="@dimen/left_padding"
+                  android:paddingRight="@dimen/right_padding">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/no_word_found"
+                  android:gravity="center"
+                  android:text="@string/no_word_found"
+                  android:visibility="gone"/>
+        <ListView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/list"
+                ></ListView>
+    </LinearLayout>
+
+</LinearLayout>
+    

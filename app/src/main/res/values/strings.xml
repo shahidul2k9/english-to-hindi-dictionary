@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">English to Hindi</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item>Favorite</item>
+        <item>Add New Word</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@mipmap/home</item>
+        <item>@mipmap/favorite</item>
+        <item>@mipmap/plus</item>
+    </array>
+    <string-array name="option_names">
+        <item>Update</item>
+        <item>Delete</item>
+    </string-array>
+    <array name="option_icons">
+        <item>@mipmap/update</item>
+        <item>@mipmap/delete</item>
+    </array>
+    <string-array name="font_size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string name="english_word">English Word</string>
+    <string name="bangla_meaning">हिन्दी अर्थ</string>
+    <string name="add">Add</string>
+    <string name="english_word_name_require">English word name requre</string>
+    <string name="bangla_meaning_require">Hindi meaning require</string>
+    <string name="say_english_word">say any english word</string>
+    <string name="speech_not_supported">speech not supported</string>
+    <string name="no_word_found">No word found</string>
+    <string name="update_word">Update word</string>
+    <string name="choose_one_option">Delete or Update word </string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="english_to_hindi_add_unit">ca-app-pub-8904861399331639/9551015106</string>
+    <string name="font_size">Font Size</string>
+    <string name="rate_me">Rate Me</string>
+    <string name="english_to_hindi_add_unit_interstitial">ca-app-pub-8904861399331639/1092411907</string>
+</resources>
