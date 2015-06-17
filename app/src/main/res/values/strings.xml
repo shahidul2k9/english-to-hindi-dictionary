@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">English to Hindi</string>
 
     <!-- Nav Drawer Menu Items -->
@@ -41,8 +41,8 @@
     <string name="update">Update</string>
     <string name="cancel">Cancel</string>
 
-    <string name="english_to_hindi_add_unit">ca-app-pub-8904861399331639/9551015106</string>
+    <string name="english_to_hindi_add_unit"></string>
     <string name="font_size">Font Size</string>
     <string name="rate_me">Rate Me</string>
-    <string name="english_to_hindi_add_unit_interstitial">ca-app-pub-8904861399331639/1092411907</string>
+    <string name="english_to_hindi_add_unit_interstitial"></string>
 </resources>
